@@ -1,0 +1,53 @@
+
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(27, 61, 27);
+}
+
+
+    
+
+
+/*-------------------------------header----------------------------*/
+#hd {
+  width: 100vw;
+  height: 10vh;
+  background-color: blueviolet;
+  display: flex;
+}
+.hd__sec {
+    border: 1px dotted black;
+    height: 100%;
+    background-color: rgb(7, 4, 42);
+}
+
+#hd__sec01 { 
+    flex: 2;
+
+
+}
+#hd__sec02 {
+    flex: 6;
+
+}
+#hd__sec03 {
+  flex: 4;
+
+}
+
+
+/*-------------------------------main------------------------------*/
+#mn {
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(255, 231, 51);
+
+}
+/*-------------------------------footer----------------------------*/
+#ft {
+  width: 100vw;
+  height: 10vh;
+  background-color:darkcyan
+}
